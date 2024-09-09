@@ -142,10 +142,13 @@ EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.yandex.ru'
 
 EMAIL_HOST_USER = 'i.aytugan@yandex.ru'
-EMAIL_HOST_PASSWORD = 'rptrlpaovshjxlvh'
-EMAIL_PORT = '587'
+EMAIL_HOST_PASSWORD = 'catzakoknkxmzkjw'
+EMAIL_PORT = '465'
 EMAIL_USE_SSL = True
+
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 SERVER_EMAIL = EMAIL_HOST_USER
+EMAIL_ADMIN = EMAIL_HOST_USER
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
