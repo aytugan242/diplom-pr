@@ -8,21 +8,8 @@
 8. python manage.py migrate - создаем базу данных
 9. python manage.py runserver - запускаем проект
 
-
-11. перешли на http://127.0.0.1:8000/admin/ и проверили доступы
-9. python manage.py createsuperuser - создали супер пользователя
+python manage.py createsuperuser - супер пользователь
 
 
 
-
-
-Супер:
-i.aytugan1986@yandex.ru
-sddJ7^d9c
-     
-	 
-Проблемы возникающие во время работы:
-python manage.py makemigrations - возникли проблемы с файлами backend\urls.py, orders\urls.py
-ModuleNotFoundError: No module named 'distutils' - оказалось модуль distutils отсутствует в Python 3.12 и более поздних версиях.
-distutils сейчас часть setuptools, установили: pip install --upgrade setuptools
 
